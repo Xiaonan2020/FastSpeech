@@ -1,0 +1,7 @@
+import transformer.Constants
+import transformer.Modules
+import transformer.Layers
+import transformer.SubLayers
+import transformer.Models
+
+# 因FastSpeech中FFT块和用于训练duration predictor的对齐信息提取都与transformer相关的，本项目把相关的文件都放在了transformer路径下
